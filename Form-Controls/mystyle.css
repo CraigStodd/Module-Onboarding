@@ -1,16 +1,30 @@
 /* Form Styling */
 /* Text Formatting */
 /* Headers */
-h1, h2 {font-family: Tahoma;}
+h1,
+h2 {
+  font-family: Tahoma;
+}
 
-h2 {font-weight: lighter;}
+h2 {
+  font-weight: lighter;
+}
 
 /* Paragraph */
 
-p {font-family: verdana;
-font-size: 90%;}
+p {
+  font-family: verdana;
+  font-size: 90%;
+}
 
-.container {border-style: solid;
-    border-width: 1px;
-    padding: 5px;
-    max-width:350px;}
+.container {
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  max-width: 350px;
+}
+
+/* Button Formatting */
+button {
+    margin-top: 20px;
+}
